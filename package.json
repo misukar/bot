@@ -1,5 +1,5 @@
 {
-    "name": "Aine-Bot",
+    "name": "Fauzan",
     "version": "07.06.98",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
@@ -27,16 +27,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Aiinne",
+    "homepage": "https://github.com/misukar",
     "author": {
-        "name": "Muhammad Ridwan Reynaldy"
+        "name": "Amran Fauzan"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Aiinne"
     },
     "bugs": {
-        "url": "https://github.com/Aiinne"
+        "url": "https://github.com/misukar"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
