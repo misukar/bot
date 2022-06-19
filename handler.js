@@ -28,7 +28,7 @@ module.exports = {
                 if (typeof user !== 'object') global.db.data.users[m.sender] = {}
                 if (user) {
                     if (!isNumber(user.exp)) user.exp = 0
-                    if (!isNumber(user.limit)) user.limit = 1000
+                    if (!isNumber(user.limit)) user.limit = 20
                     if (!isNumber(user.joinlimit)) user.joinlimit = 1
                     if (!isNumber(user.money)) user.money = 100000
                     if (!isNumber(user.bank)) user.bank = 100000
@@ -275,7 +275,7 @@ module.exports = {
                     if (!isNumber(user.lastadventure)) user.lastadventure = 0
                 } else global.db.data.users[m.sender] = {
                     exp: 0,
-                    limit: 1000,
+                    limit: 20,
                     joinlimit: 1,
                     spammer: 0,
                     money: 10000,
@@ -534,7 +534,7 @@ module.exports = {
                     if (!isNumber(chat.expired)) chat.expired = 0
                 } else global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
@@ -546,7 +546,7 @@ module.exports = {
                     antiSticker: false,
                     viewonce: false,
                     useDocument: false,
-                    antiToxic: false,
+                    antiToxic: true,
                     expired: 0,
                 }
             } catch (e) {
