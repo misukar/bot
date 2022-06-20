@@ -21,7 +21,7 @@ handler.tags = ['rpg']
 handler.command = /^(mulung)/i
 handler.owner = false
 handler.mods = false
-handler.premium = false
+handler.premium = true
 handler.group = true
 handler.private = false
 
