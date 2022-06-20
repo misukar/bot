@@ -20,6 +20,7 @@ handler.help = ['monthly']
 handler.tags = ['rpgabsen']
 handler.command = /^(monthly)$/i
 handler.limit = true
+handler.premium = true
 
 handler.fail = null
 
