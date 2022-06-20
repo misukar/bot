@@ -12,5 +12,6 @@ handler.help = ['neko']
 handler.tags = ['internet']
 handler.command = /^neko$/i
 handler.limit = true
+handler.premium = true
 
 module.exports = handler
