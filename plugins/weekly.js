@@ -21,6 +21,7 @@ handler.help = ['weekly']
 handler.tags = ['rpgabsen']
 handler.command = /^(weekly)$/i
 handler.limit = true
+handler.premium = true
 handler.fail = null
 
 module.exports = handler
