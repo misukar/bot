@@ -42,7 +42,7 @@ handler.tags = ['internet']
 handler.command = /^ppcouple|ppcp$/i
 handler.owner = false
 handler.limit = true
-handler.premium = false
+handler.premium = true
 handler.group = false
 handler.private = false
 
