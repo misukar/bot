@@ -9,5 +9,6 @@ handler.help = ['loli']
 handler.tags = ['internet']
 handler.command = /^(loli)$/i
 handler.limit = true
+handler.premium = true
 
 module.exports = handler
