@@ -33,6 +33,7 @@ handler.group = true
 
 handler.fail = null
 handler.limit = true
+handler.premium = true
 handler.exp = 0
 handler.money = 0
 
