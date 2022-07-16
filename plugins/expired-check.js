@@ -4,7 +4,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (m.isGroup) who = args[1] ? args[1] : m.chat
     else who = args[1]
 
-    var jumlahHari = 86400000 * args[0]
+    var jumlahHari = 1 * args[0]
     var now = new Date() * 1
     
     conn.reply(m.chat, `*Expired Group:*\n${(global.db.data.chats[who].expired - now) > 1 ? msToDate(global.db.data.chats[who].expired - now) : '*Tidak diatur expired group!*'}`,m)
